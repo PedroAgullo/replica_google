@@ -1,0 +1,26 @@
+.contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+/*Parte superior de la pagina de google*/
+.cajaUp{
+    height: 4em;
+    width: 100em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.caja2Vacia{
+    height: 6em;
+    width: 100em;
+    background-color: white;
+
+}
