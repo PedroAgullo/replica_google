@@ -62,7 +62,7 @@ a{
 
 /*Espacio en blanco superior*/
 .caja2Vacia{
-    height: 8em;
+    height: 7em;
     width: 100em;
     background-color: white;
 
@@ -79,17 +79,54 @@ a{
     width: 20em;
 }
 
+
+/*Caja de texto para la búsqueda*/
 .cajaTexto{
     height: 4em;
     width: 100em;
     background-color: peachpuff;
 }
 
+.cajaTextoHijo1{
+    height: 4em;
+    width: 20em;
+}
+
+.cajaTextoHijo2{
+    height: 4em;
+    width: 20em;
+}
+
+.cajaTextoHijo3{
+    height: 4em;
+    width: 20em;
+}
+
+.cajaTextoHijo4{
+    height: 4em;
+    width: 20em;
+}
+
+.cajaTextoHijo5{
+    height: 4em;
+    width: 20em;
+}
+
+
+
+/*Botones de búsqueda*/
 .cajaBotones{
     height: 4em;
     width: 100em;
     background-color: plum;
 }
+
+.cajaBotHijo1{
+    height: 4em;
+    width: ;
+}
+
+
 
 .cajaIdioma{
     height: 4em;
