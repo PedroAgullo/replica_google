@@ -28,7 +28,6 @@ a{
     width: 7em;    
     justify-content: center;
     align-items: center;
-    background-color: wheat;
 }
 
 .cajaUpHijo2{
@@ -54,7 +53,6 @@ a{
 .cajaUpHijo7{
     height: 4em;
     width: 4em;
-    background-color: wheat;
 }
 
 
@@ -70,8 +68,8 @@ a{
 
 /*Logo de Google*/
 .cajaLogo{
-    height: 10em;
-    width: 30em;
+    height: 8em;
+    width: 20em;
 }
 
 .logoGoogle{
@@ -84,7 +82,10 @@ a{
 .cajaTexto{
     height: 4em;
     width: 100em;
-    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cajaTextoHijo1{
@@ -118,22 +119,45 @@ a{
 .cajaBotones{
     height: 4em;
     width: 100em;
-    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .cajaBotHijo1{
     height: 4em;
-    width: ;
 }
 
 
-
+/*Linea con los links a diferentes idiomas*/
 .cajaIdioma{
     height: 4em;
     width: 100em;
-    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.cajaIdimaHijo1{
+    height: 4em;
+    width: 43em;
+
+}
+
+.cajaIdimaHijo2{
+    height: 4em;
+    width: 33em;
+    
+}
+.cajaIdimaHijo3{
+    height: 4em;
+    width: 33em;
+    
+}
+
+/*Espacio vacío de abajo.*/
 .cajaEspacio{
     height: 10em;
     width: 100em;
@@ -143,19 +167,20 @@ a{
 .cajaPais{
     height: 4em;
     width: 100em;
-    background-color: grey;
+    background-color: rgb(212, 209, 209);
+    display: flex;
+    align-items:flex-start;
+    
     
 }
 
 .cajaEmisiones{
     height: 4em;
     width: 100em;
-    background-color: grey;
-}
+    background-color: rgb(212, 209, 209)}
 
 .cajaDown{
     height: 4em;
     width: 100em;
-    background-color: grey;
-
+    background-color: rgb(212, 209, 209)
 }
